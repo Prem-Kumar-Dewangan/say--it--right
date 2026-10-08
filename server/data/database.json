@@ -16,9 +16,64 @@
       "passwordHash": "96457e15bb84f7cda949f38ed4b10e2e5f30b67412dcb2e7f7a47846c6be08a26db5f3ed26bd1e79741c3e8e6d25ab5126c458a520cab68409dd4a83176d44ff",
       "salt": "e99de4563ecbc3ed833185797ffe6fc7",
       "createdAt": 1791456322510
+    },
+    {
+      "id": "usr_1791464849283_71ebf73e",
+      "name": "Test User",
+      "email": "test_1791464849106@example.com",
+      "passwordHash": "6f310ca93cc768a64a4fe1cf4945b21190aa02919402ec2e9845ce7556be18320bedfc4a8889a5a894912425828513697a654c484e79c9f1874da2bd2a182d50",
+      "salt": "021d45f21a685ecf5c715ab35b1b71c4",
+      "createdAt": 1791464849283
+    },
+    {
+      "id": "usr_1791464890525_611c11c6",
+      "name": "Test User",
+      "email": "test_1791464890400@example.com",
+      "passwordHash": "c59464b701aad2aadad39b04e9eda89c4230accc093d05701364a59aeb3ac84db118f32799786aea265eb9751897ce3d20c42fcb380245fc14db23ac8726b085",
+      "salt": "3af63d7ae94461e0754cf7241d530392",
+      "createdAt": 1791464890525
+    },
+    {
+      "id": "usr_1791464926048_f44f5f6d",
+      "name": "Test User",
+      "email": "test_1791464925909@example.com",
+      "passwordHash": "3fd5261082aa17e19e33b4cac61ac07d987d42ed8179edf01cda221d25bb4a7bf8c533a2d5b1f9cdd1bd6f28a230d8009dab852955c11cb23f890a13af65e3cf",
+      "salt": "7c7a3c25373f6df014649b5d87c7b335",
+      "createdAt": 1791464926048
+    },
+    {
+      "id": "usr_1791464998572_738695af",
+      "name": "Test User",
+      "email": "test_1791464998477@example.com",
+      "passwordHash": "0f21c2fc1bc03564a384fdfb1d0e9951f03a022b646555255deca64edab098e4da8a8a2f25a549692101101b66e86973ccf3a92862f49a7171e35e3416ad7795",
+      "salt": "ab2888b766aee4ea6a963c7719a32333",
+      "createdAt": 1791464998572
     }
   ],
-  "sessions": [],
+  "sessions": [
+    {
+      "id": "sess_test_1791464890665",
+      "userId": "usr_1791464890525_611c11c6",
+      "createdAt": 1791464890665,
+      "request": {
+        "roughMessage": "Need to push back on deadline",
+        "recipient": "Manager",
+        "situation": "Negotiate",
+        "intention": "Ask for 2 more days",
+        "desiredTone": "Professional",
+        "medium": "Email"
+      },
+      "result": {
+        "suggestedMessage": "I would like to request a two-day extension on the deliverable.",
+        "whyItWorks": "Direct and proactive",
+        "keyAdjustments": [
+          "Clear timeline",
+          "No defensive tone"
+        ]
+      },
+      "isFavorite": true
+    }
+  ],
   "tokens": [
     {
       "token": "tok_6adeee1db2269c8ed29e58db745cbf7fbe9f9018b83c5d6ceb1e350b9de4205f",
@@ -31,6 +86,54 @@
       "userId": "usr_1791456322509_f9158bd5",
       "createdAt": 1791456332179,
       "expiresAt": 1794048332179
+    },
+    {
+      "token": "tok_db99de70a91319c8727417e1cd4c4c5307a189b8f2d08ae9f40cf6a52ff40dd3",
+      "userId": "usr_1791464849283_71ebf73e",
+      "createdAt": 1791464849283,
+      "expiresAt": 1794056849283
+    },
+    {
+      "token": "tok_6a2690564302cf55b263f8888c0b0561f607e14a2faea14992eb234f0a4a36c1",
+      "userId": "usr_1791464849283_71ebf73e",
+      "createdAt": 1791464849387,
+      "expiresAt": 1794056849387
+    },
+    {
+      "token": "tok_9b585671f9301f01ad493aa241b0a187a20cf8bc210feaafba5d5af85a73c620",
+      "userId": "usr_1791464890525_611c11c6",
+      "createdAt": 1791464890525,
+      "expiresAt": 1794056890525
+    },
+    {
+      "token": "tok_154f7dcff67d74ec0bd9cfcb3740c5207988edb9fb2f206c1a60d96dbeb6cc3b",
+      "userId": "usr_1791464890525_611c11c6",
+      "createdAt": 1791464890602,
+      "expiresAt": 1794056890602
+    },
+    {
+      "token": "tok_0046016abfafe635b515ef8068f4cbbd2822644a6af2fcb2637993b846968df9",
+      "userId": "usr_1791464926048_f44f5f6d",
+      "createdAt": 1791464926048,
+      "expiresAt": 1794056926048
+    },
+    {
+      "token": "tok_c243516462a21ec0e4350b28a426350a784a73a4abc080adaeeee8a7c6bdaad4",
+      "userId": "usr_1791464926048_f44f5f6d",
+      "createdAt": 1791464926127,
+      "expiresAt": 1794056926127
+    },
+    {
+      "token": "tok_d535f9d01f53146daeb7cbd9cd45440b216148cbe03dfd4957d77329db1016be",
+      "userId": "usr_1791464998572_738695af",
+      "createdAt": 1791464998573,
+      "expiresAt": 1794056998573
+    },
+    {
+      "token": "tok_7ae65e222ee9c0ad7f88979e32d8a3fdbb4061e1cef437d21d3996147f394641",
+      "userId": "usr_1791464998572_738695af",
+      "createdAt": 1791464998661,
+      "expiresAt": 1794056998661
     }
   ]
 }
