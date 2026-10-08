@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "users": [
+    {
+      "id": "usr_demo_guest",
+      "name": "Prem",
+      "email": "prem@example.com",
+      "passwordHash": "b0f059a6fbee8be27eb27613fc952086d7eb3b9f01a5c0cf5f2d4a965b63f6419fbdb2ed4e684df70ef66f2b1e04896a1b6e56378096c2d07591ba653f7cdcde",
+      "salt": "1ad1e5249047218918474744a9f3e54d",
+      "createdAt": 1791456312457
+    },
+    {
+      "id": "usr_1791456322509_f9158bd5",
+      "name": "Test User",
+      "email": "test@example.com",
+      "passwordHash": "96457e15bb84f7cda949f38ed4b10e2e5f30b67412dcb2e7f7a47846c6be08a26db5f3ed26bd1e79741c3e8e6d25ab5126c458a520cab68409dd4a83176d44ff",
+      "salt": "e99de4563ecbc3ed833185797ffe6fc7",
+      "createdAt": 1791456322510
+    }
+  ],
+  "sessions": [],
+  "tokens": [
+    {
+      "token": "tok_6adeee1db2269c8ed29e58db745cbf7fbe9f9018b83c5d6ceb1e350b9de4205f",
+      "userId": "usr_1791456322509_f9158bd5",
+      "createdAt": 1791456322511,
+      "expiresAt": 1794048322511
+    },
+    {
+      "token": "tok_1ccd8ae837ed8f0990f124f347905d5c2a3ff4c5d77fa2c8e4effa86167ea6b8",
+      "userId": "usr_1791456322509_f9158bd5",
+      "createdAt": 1791456332179,
+      "expiresAt": 1794048332179
+    }
+  ]
+}

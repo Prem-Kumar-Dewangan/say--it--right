@@ -1,0 +1,7 @@
+{
+  "name": "Say It Right - AI Communication Coach",
+  "description": "Master difficult conversations with AI coaching that analyzes relationship dynamics, preserves your authentic voice, and teaches transferable communication skills.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
